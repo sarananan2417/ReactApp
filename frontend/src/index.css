@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins"
+}
+
+.create{
+    background-color: green;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 300ms;
+}
+.create:hover{
+    opacity: .7;
+    transition: 300ms;
+}
+.container .con{
+    border: 1px solid black;
+    padding: 10px;
+}
+.container .con .head{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    /* border-bottom: 2px solid rgb(76, 255, 6); */
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container .con .foot{
+    text-align: center;
+}
+.imagess{
+    display:block;
+    height: 15rem;
+    width: 100%;
+    background-size: cover;
+}
+.name,.price{
+    padding: 10px;
+    outline: none;
+    margin: 15px;
+    border: none;
+    background-color:rgba(197, 182, 182, 0.548);
+}
+.file{
+    margin: 15px;
+    cursor: pointer;
+}
+.btn{
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+    padding: 8px;
+    /* font-family: sans-serif; */
+    color: white;
+    font-weight: bold;
+    background-color: rgb(60, 60, 212);
+    border: none;
+    cursor: pointer;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 40px;
+}
+.head h2{
+    font-size: 20px;
+    font-weight: lighter; 
+}
+
+.benifits{
+    overflow-wrap: break-word;
+    text-align: start;
+    margin: 10px 0;
+    display: block;
+}
+.benifits1{
+    overflow-wrap: break-word;
+}
+.border{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 3px;
+}
+.heading{
+    font-weight: normal;
+    margin: 10px 0;
+    text-align: start;
+
+}
+.update{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 0;
+    display: block;
+}
+.para{
+    overflow-wrap: break-word;
+    text-align: start;
+    padding: 10px 0;
+}
+.areal,.areal1{
+    text-align: start;
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+}
+.areal1{
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+}
+.areal{
+    display: flex;
+    justify-content: space-between;
+}
+.price1{
+    background-color: black;
+    border-radius: 3px;
+    font-weight: bolder;
+    width: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    transition-duration: 300ms;
+}
+.price1:hover,.update:hover{
+    opacity: .9;
+}
+.headcontainer{
+    border: 1px solid gray;
+    padding: 10px;
+}
+.profileimage{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.head{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+}
+.main-image-con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.all-con{
+    margin: 20px  10px;
+
+}
